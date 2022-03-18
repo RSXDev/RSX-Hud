@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e3d715f8e4.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+    <title>Hud</title>
+</head>
+<body>
+    <div id="barsContainer">
+        <div class="bar-container" id="health">
+            <div class="health" id="health-bar"></div>
+            <svg class="icon" id="Ihealth"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 190.9V185.1C0 115.2 50.52 55.58 119.4 44.1C164.1 36.51 211.4 51.37 244 84.02L256 96L267.1 84.02C300.6 51.37 347 36.51 392.6 44.1C461.5 55.58 512 115.2 512 185.1V190.9C512 232.4 494.8 272.1 464.4 300.4L283.7 469.1C276.2 476.1 266.3 480 256 480C245.7 480 235.8 476.1 228.3 469.1L47.59 300.4C17.23 272.1 .0003 232.4 .0003 190.9L0 190.9z"/></svg>
+            
+        </div>
+        <div class="bar-container" id = "hunger">
+            <div class="hunger" id = "hunger-bar"></div>
+                        <svg class = "icon" version="1.0" xmlns="http://www.w3.org/2000/svg"
+            width="208.000000pt" height="200.000000pt" viewBox="0 0 208.000000 200.000000"
+            preserveAspectRatio="xMidYMid meet">
+
+            <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+            stroke="none">
+            <path d="M986 1899 c-105 -14 -183 -37 -274 -80 -206 -96 -349 -247 -414 -439
+            -24 -73 -16 -119 28 -161 l26 -24 749 -3 c814 -3 798 -4 834 52 26 40 16 118
+            -28 210 -105 221 -312 374 -581 432 -90 19 -253 25 -340 13z m177 -187 c37
+            -33 9 -102 -42 -102 -32 0 -44 8 -60 38 -14 26 -3 52 30 76 23 16 43 12 72
+            -12z m-480 -120 c37 -33 9 -102 -42 -102 -32 0 -44 8 -60 38 -14 26 -3 52 30
+            76 23 16 43 12 72 -12z m960 0 c37 -33 9 -102 -42 -102 -32 0 -44 8 -60 38
+            -14 26 -3 52 30 76 23 16 43 12 72 -12z"/>
+            <path d="M322 1049 c-131 -65 -131 -254 0 -318 44 -21 51 -21 789 -21 456 0
+            757 4 778 10 39 11 86 51 107 92 18 35 18 121 0 156 -21 41 -68 81 -107 92
+            -18 6 -64 10 -102 10 l-67 0 -181 -121 -181 -121 -182 121 -182 121 -314 0
+            c-302 0 -317 -1 -358 -21z"/>
+            <path d="M299 569 c-19 -19 -21 -30 -17 -93 7 -105 49 -174 133 -219 40 -22
+            43 -22 705 -22 l665 0 47 28 c26 15 62 49 80 75 30 42 33 55 37 130 5 136 101
+            122 -831 122 l-798 0 -21 -21z"/>
+            </g>
+            </svg>
+        </div>
+        
+        <div class="bar-container" id = "thirst">
+            <div class="thirst" id = "thirst-bar"></div>
+            <svg class="icon" id="Ithirst"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M352 0C360.9 0 369.4 3.692 375.4 10.19C381.5 16.69 384.6 25.42 383.9 34.28L355.1 437.7C352.1 479.6 317.3 512 275.3 512H108.7C66.72 512 31.89 479.6 28.9 437.7L.0813 34.28C-.5517 25.42 2.527 16.69 8.58 10.19C14.63 3.692 23.12 0 32 0L352 0zM97.19 168.6C116.6 178.3 139.4 178.3 158.8 168.6C179.7 158.1 204.3 158.1 225.2 168.6C244.6 178.3 267.4 178.3 286.8 168.6L311 156.5L317.6 64H66.37L72.97 156.5L97.19 168.6z"/></svg>
+           
+        </div>
+
+        <div class="bar-container" id="armour">
+            <div class="armour" id="armour-bar"></div>
+            <svg class="icon" id="Iarmour"version="1.0" xmlns="http://www.w3.org/2000/svg"
+            width="463.000000pt" height="626.000000pt" viewBox="0 0 463.000000 626.000000"
+            preserveAspectRatio="xMidYMid meet">
+
+            <g transform="translate(0.000000,626.000000) scale(0.100000,-0.100000)"
+                stroke="none">
+                <path d="M2274 6247 c-12 -7 -45 -47 -74 -90 -142 -213 -474 -405 -895 -517
+                -302 -81 -616 -122 -1039 -136 -197 -7 -210 -8 -235 -30 l-26 -22 0 -1649 c0
+                -1557 1 -1653 18 -1733 82 -380 340 -759 762 -1122 347 -299 701 -535 1175
+                -783 263 -138 335 -169 374 -161 64 13 582 286 796 420 864 541 1357 1091
+                1477 1646 17 80 18 176 18 1733 l0 1649 -26 22 c-25 22 -38 24 -240 30 -699
+                23 -1227 142 -1597 360 -156 92 -301 225 -362 334 -32 57 -80 76 -126 49z m89
+                -691 c12 -13 42 -51 66 -85 54 -74 137 -142 256 -210 280 -160 690 -253 1180
+                -267 105 -3 202 -10 216 -15 15 -6 31 -22 38 -35 8 -18 11 -367 11 -1273 0
+                -1359 1 -1331 -56 -1500 -142 -416 -599 -863 -1284 -1256 -180 -103 -446 -235
+                -476 -235 -12 0 -99 38 -191 84 -757 380 -1314 852 -1514 1281 -52 113 -77
+                191 -94 297 -13 79 -15 278 -15 1335 0 902 3 1249 11 1267 7 13 23 29 38 35
+                14 5 112 12 216 15 716 21 1266 215 1468 519 15 23 35 48 44 55 26 19 62 14
+                86 -12z"/>
+                <path d="M2313 5008 c-13 -20 -6 -3939 7 -3952 19 -19 358 159 595 312 261
+                168 537 414 672 598 73 100 145 242 175 349 l22 80 4 1039 c2 778 0 1047 -9
+                1068 -14 35 -18 35 -210 42 -264 10 -507 48 -714 113 -98 31 -256 108 -327
+                161 -54 40 -158 146 -158 162 0 11 -29 40 -40 40 -5 0 -12 -6 -17 -12z"/>
+                </g>
+            </svg>
+           
+        </div>
+
+        <div class="bar-container" id = "lungs">
+            <div class="lungs" id = "lungs-bar"></div>
+            <svg class="icon" id="Ilungs"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M640 419.8c0 61.25-62.5 105.5-125.3 88.63l-59.53-15.88c-42.12-11.38-71.25-47.5-71.25-88.63L384 316.4l85.88 57.25c3.625 2.375 8.625 1.375 11-2.25l8.875-13.37c2.5-3.625 1.5-8.625-2.125-11L320 235.3l-167.6 111.8c-1.75 1.125-3 3-3.375 5c-.375 2.125 0 4.25 1.25 6l8.875 13.37c1.125 1.75 3 3 5 3.375c2.125 .375 4.25 0 6-1.125L256 316.4l.0313 87.5c0 41.13-29.12 77.25-71.25 88.63l-59.53 15.88C62.5 525.3 0 481 0 419.8c0-10 1.25-19.88 3.875-29.63C25.5 308.9 59.91 231 105.9 159.1c22.12-34.63 36.12-63.13 80.12-63.13C224.7 96 256 125.4 256 161.8v60.1l32.88-21.97C293.4 196.9 296 192 296 186.6V16C296 7.125 303.1 0 312 0h16c8.875 0 16 7.125 16 16v170.6c0 5.375 2.625 10.25 7.125 13.25L384 221.8v-60.1c0-36.38 31.34-65.75 69.97-65.75c43.1 0 58 28.5 80.13 63.13c46 71.88 80.41 149.8 102 231C638.8 399.9 640 409.8 640 419.8z"/></svg>
+        </div>
+        
+    </div>
+
+</body>
+</html>

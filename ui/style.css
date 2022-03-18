@@ -1,0 +1,94 @@
+#barsContainer {
+    position: absolute;
+    bottom: 3.5vw;
+    right: 1vw;
+}
+
+.bar-container {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    margin-top: 6px;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 5px;
+    background-color: rgba(104, 95, 95, 0.514);
+    border: 2px solid black;
+}
+
+.icon {
+    z-index: 9999;
+    position: absolute;
+    fill: rgb(255, 255, 255);
+    width: 1vw;
+    height: 1vw;
+    transform: translate(21%,-20%);
+}
+
+#health-bar {
+    position: relative;
+    width: 1.5;
+    height: 35%;
+    
+    background-color: black;
+}
+
+#armour-bar {
+    position: relative;
+    width: 1.5;
+    /*height: 15%;*/
+    
+    background-color: black;
+}
+
+#hunger-bar {
+    position: relative;
+    width: 1.5;
+    /*height: 20%;*/
+    
+    background-color: black;
+}
+
+#thirst-bar {
+    position: relative;
+    width: 1.5;
+
+    /*height: 60%;*/
+    
+    background-color: black;
+}
+
+
+
+
+#lungs-bar {
+    position: relative;
+    width: 1.5;
+    /*height: 40%;*/
+    
+    background-color: black;
+}
+
+
+#Ilungs {
+    transform: translate(25%,-30%);
+}
+
+#Ithirst {
+    width: .9vw;
+    height: .9vw;
+    transform: translate(32%,-30%);
+}
+
+#Iarmour {
+    width: 1.01vw;
+    height: 1.01vw;
+    transform: translate(25%,-29%);
+}
+
+#Ihealth {
+    width: .9vw;
+    height: .9vw;
+
+    transform: translate(32%,-30%);
+}
