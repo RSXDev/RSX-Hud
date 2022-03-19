@@ -3,7 +3,9 @@ Basic HUD for fivem
 
 installation:
  
-  Add the folder "basic-hud" to you're resources folder
+  We remove the -main from the file
+ 
+  Add the folder to your resources folder
 
   Add "ensure basic-hud" to your server.cfg"
   
