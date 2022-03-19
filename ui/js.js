@@ -3,12 +3,7 @@ $("#barsContainer").fadeOut();
 window.addEventListener('message', function(event) { 
     if (event.data.action == 'update') {
 
-        if (event.data.health == 100) $("#health").fadeOut(); else {
-            $("#health").fadeIn()
-            if (event.data.health < 20) {
-                $("#health").css("animation", "shake 0.5")
-            }
-        };
+        if (event.data.health == 100) $("#health").fadeOut(); else $("#health").fadeIn();
         if (event.data.thirst > 50) $("#thirst").fadeOut(); else $("#thirst").fadeIn();
         if (event.data.hunger > 50) $("#hunger").fadeOut(); else $("#hunger").fadeIn();
         if (event.data.armour < 1) $("#armour").fadeOut(); else $("#armour").fadeIn();
