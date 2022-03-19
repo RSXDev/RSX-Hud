@@ -75,9 +75,6 @@ RegisterCommand('showhud', function(source, args, rawCommand)
 
 end)
 
-TriggerEvent('esx_status:set', 'hunger', 400000)
-TriggerEvent('esx_status:set', 'thirst', 400000)
-
 --Enviando la data al js
 CreateThread(function()
     while true do
