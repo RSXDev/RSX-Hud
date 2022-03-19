@@ -1,7 +1,8 @@
+
 # RSX-Hud
 Basic HUD for fivem
 
-installation:
+Installation:
  
   We remove the -main from the file
  
@@ -10,3 +11,6 @@ installation:
   Add "ensure basic-hud" to your server.cfg"
   
   
+Preview:
+
+![unknown](https://user-images.githubusercontent.com/101907679/159098599-7903319d-92e8-4c74-bd6a-24c7a2d2dd3f.png)
