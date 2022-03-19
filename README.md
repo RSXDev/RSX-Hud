@@ -4,7 +4,7 @@ Basic HUD for fivem
 
 Installation:
  
-  We remove the -main from the file
+  We remove the -main from the file name
  
   Add the folder to your resources folder
 
